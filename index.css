@@ -1,0 +1,38 @@
+/* h1 {
+    color:#00f;
+} */
+
+@media (max-width:600px){
+    /* h1 {
+        color:#f0f;
+    } */
+    .card {
+        width:100%;
+        display: block;
+        text-align: justify;
+    }
+}
+
+@media (orientation: landscape) and (max-width:800px){
+    /* h1 {
+        color:#0f0;
+    } */
+}
+
+.left-section {
+    float:left;
+}
+
+.left-section img {
+    object-fit: cover;
+}
+
+
+.right-section {
+    float:right;
+}
+
+.right-section img {
+    object-fit: cover;
+}
+
